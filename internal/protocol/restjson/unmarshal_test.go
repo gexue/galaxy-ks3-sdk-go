@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"encoding/xml"
-	"github.com/ks3sdklib/aws-sdk-go/internal/util"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/util"
 	"io"
 	"io/ioutil"
 	"net/http"
@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ks3sdklib/aws-sdk-go/aws"
-	"github.com/ks3sdklib/aws-sdk-go/internal/protocol/restjson"
-	"github.com/ks3sdklib/aws-sdk-go/internal/protocol/xml/xmlutil"
-	"github.com/ks3sdklib/aws-sdk-go/internal/signer/v4"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/protocol/restjson"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/protocol/xml/xmlutil"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/signer/v4"
 	"github.com/stretchr/testify/assert"
 )
 

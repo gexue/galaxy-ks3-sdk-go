@@ -1,7 +1,7 @@
 package s3
 
 import (
-	"github.com/ks3sdklib/aws-sdk-go/aws"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws"
 )
 
 // GetBucketCORSRequest generates a request for the GetBucketCORS operation.

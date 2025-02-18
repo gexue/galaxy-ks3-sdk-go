@@ -1,7 +1,7 @@
 package credentials
 
 import (
-	"github.com/ks3sdklib/aws-sdk-go/internal/apierr"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/apierr"
 )
 
 var (
@@ -31,13 +31,12 @@ var (
 // does not return any credentials ChainProvider will return the error
 // ErrNoValidProvidersFoundInChain
 //
-//     creds := NewChainCredentials(
-//         []Provider{
-//             &EnvProvider{},
-//             &EC2RoleProvider{},
-//         })
-//     creds.Retrieve()
-//
+//	creds := NewChainCredentials(
+//	    []Provider{
+//	        &EnvProvider{},
+//	        &EC2RoleProvider{},
+//	    })
+//	creds.Retrieve()
 type ChainProvider struct {
 	Providers []Provider
 	curr      Provider

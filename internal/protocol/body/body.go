@@ -1,10 +1,10 @@
 package body
 
 import (
-	"github.com/ks3sdklib/aws-sdk-go/aws"
-	"github.com/ks3sdklib/aws-sdk-go/internal/protocol/rest"
-	"github.com/ks3sdklib/aws-sdk-go/internal/protocol/restjson"
-	"github.com/ks3sdklib/aws-sdk-go/internal/protocol/restxml"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/protocol/rest"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/protocol/restjson"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/protocol/restxml"
 )
 
 // Build builds the REST component of a service request.

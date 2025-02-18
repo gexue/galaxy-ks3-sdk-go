@@ -2,8 +2,8 @@ package aws
 
 import (
 	"bytes"
-	"github.com/ks3sdklib/aws-sdk-go/aws/awsutil"
-	"github.com/ks3sdklib/aws-sdk-go/internal/crc"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws/awsutil"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/crc"
 	"hash"
 	"io"
 	"net/http"

@@ -1,6 +1,6 @@
 package s3
 
-import "github.com/ks3sdklib/aws-sdk-go/aws"
+import "github.com/gexue/galaxy-ks3-sdk-go/aws"
 
 // PutBucketInventoryRequest generates a request for the PutBucketInventory operation.
 func (c *S3) PutBucketInventoryRequest(input *PutBucketInventoryInput) (req *aws.Request, output *PutBucketInventoryOutput) {

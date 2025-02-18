@@ -30,10 +30,10 @@ go version
 - 安装方式：
 
 ```shell
-go get github.com/ks3sdklib/aws-sdk-go
+go get github.com/gexue/galaxy-ks3-sdk-go
 ```
 
-- 使用方法 参见 [Demo](https://github.com/ks3sdklib/aws-sdk-go/tree/master/test)。
+- 使用方法 参见 [Demo](https://github.com/gexue/galaxy-ks3-sdk-go/tree/master/test)。
 
 ### 4.2 获取密钥
 
@@ -95,10 +95,10 @@ package main
 
 import (
   "fmt"
-  "github.com/ks3sdklib/aws-sdk-go/aws"
-  "github.com/ks3sdklib/aws-sdk-go/aws/awsutil"
-  "github.com/ks3sdklib/aws-sdk-go/aws/credentials"
-  "github.com/ks3sdklib/aws-sdk-go/service/s3"
+  "github.com/gexue/galaxy-ks3-sdk-go/aws"
+  "github.com/gexue/galaxy-ks3-sdk-go/aws/awsutil"
+  "github.com/gexue/galaxy-ks3-sdk-go/aws/credentials"
+  "github.com/gexue/galaxy-ks3-sdk-go/service/s3"
 )
 
 func main() {
@@ -133,10 +133,10 @@ package main
 import (
   "bytes"
   "fmt"
-  "github.com/ks3sdklib/aws-sdk-go/aws"
-  "github.com/ks3sdklib/aws-sdk-go/aws/awsutil"
-  "github.com/ks3sdklib/aws-sdk-go/aws/credentials"
-  "github.com/ks3sdklib/aws-sdk-go/service/s3"
+  "github.com/gexue/galaxy-ks3-sdk-go/aws"
+  "github.com/gexue/galaxy-ks3-sdk-go/aws/awsutil"
+  "github.com/gexue/galaxy-ks3-sdk-go/aws/credentials"
+  "github.com/gexue/galaxy-ks3-sdk-go/service/s3"
   "io/ioutil"
 )
 
@@ -181,10 +181,10 @@ package main
 
 import (
   "fmt"
-  "github.com/ks3sdklib/aws-sdk-go/aws"
-  "github.com/ks3sdklib/aws-sdk-go/aws/awsutil"
-  "github.com/ks3sdklib/aws-sdk-go/aws/credentials"
-  "github.com/ks3sdklib/aws-sdk-go/service/s3"
+  "github.com/gexue/galaxy-ks3-sdk-go/aws"
+  "github.com/gexue/galaxy-ks3-sdk-go/aws/awsutil"
+  "github.com/gexue/galaxy-ks3-sdk-go/aws/credentials"
+  "github.com/gexue/galaxy-ks3-sdk-go/service/s3"
 )
 
 func main() {
@@ -220,10 +220,10 @@ package main
 
 import (
   "fmt"
-  "github.com/ks3sdklib/aws-sdk-go/aws"
-  "github.com/ks3sdklib/aws-sdk-go/aws/awsutil"
-  "github.com/ks3sdklib/aws-sdk-go/aws/credentials"
-  "github.com/ks3sdklib/aws-sdk-go/service/s3"
+  "github.com/gexue/galaxy-ks3-sdk-go/aws"
+  "github.com/gexue/galaxy-ks3-sdk-go/aws/awsutil"
+  "github.com/gexue/galaxy-ks3-sdk-go/aws/credentials"
+  "github.com/gexue/galaxy-ks3-sdk-go/service/s3"
 )
 
 func main() {

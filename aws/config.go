@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/ks3sdklib/aws-sdk-go/aws/credentials"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws/credentials"
 )
 
 // DefaultChainCredentials is a Credentials which will find the first available

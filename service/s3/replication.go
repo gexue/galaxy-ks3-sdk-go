@@ -1,6 +1,6 @@
 package s3
 
-import "github.com/ks3sdklib/aws-sdk-go/aws"
+import "github.com/gexue/galaxy-ks3-sdk-go/aws"
 
 // PutBucketReplicationRequest generates a request for the PutBucketReplication operation.
 func (c *S3) PutBucketReplicationRequest(input *PutBucketReplicationInput) (req *aws.Request, output *PutBucketReplicationOutput) {

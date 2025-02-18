@@ -1,8 +1,8 @@
 package s3
 
 import (
-	"github.com/ks3sdklib/aws-sdk-go/aws"
-	"github.com/ks3sdklib/aws-sdk-go/aws/awserr"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws/awserr"
 	"io"
 	"regexp"
 )

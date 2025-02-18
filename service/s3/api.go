@@ -5,10 +5,10 @@ package s3
 
 import (
 	"context"
-	"github.com/ks3sdklib/aws-sdk-go/aws"
-	"github.com/ks3sdklib/aws-sdk-go/aws/awserr"
-	"github.com/ks3sdklib/aws-sdk-go/internal/apierr"
-	"github.com/ks3sdklib/aws-sdk-go/internal/crc"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws/awserr"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/apierr"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/crc"
 	"hash"
 	"io"
 	"net/http"

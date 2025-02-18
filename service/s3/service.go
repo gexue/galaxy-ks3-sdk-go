@@ -3,10 +3,10 @@
 package s3
 
 import (
-	"github.com/ks3sdklib/aws-sdk-go/aws"
-	"github.com/ks3sdklib/aws-sdk-go/internal/protocol/body"
-	"github.com/ks3sdklib/aws-sdk-go/internal/signer/v2"
-	"github.com/ks3sdklib/aws-sdk-go/internal/signer/v4"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/protocol/body"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/signer/v2"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/signer/v4"
 	"strings"
 )
 

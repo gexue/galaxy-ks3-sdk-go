@@ -2,10 +2,10 @@ package lib
 
 import (
 	"context"
-	"github.com/ks3sdklib/aws-sdk-go/aws"
-	"github.com/ks3sdklib/aws-sdk-go/aws/awsutil"
-	"github.com/ks3sdklib/aws-sdk-go/aws/credentials"
-	"github.com/ks3sdklib/aws-sdk-go/service/s3"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws/awsutil"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws/credentials"
+	"github.com/gexue/galaxy-ks3-sdk-go/service/s3"
 	. "gopkg.in/check.v1"
 	"time"
 )

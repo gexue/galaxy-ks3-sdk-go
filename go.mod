@@ -1,4 +1,4 @@
-module github.com/ks3sdklib/aws-sdk-go
+module github.com/gexue/galaxy-ks3-sdk-go
 
 go 1.16
 

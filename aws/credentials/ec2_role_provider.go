@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ks3sdklib/aws-sdk-go/internal/apierr"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/apierr"
 )
 
 const metadataCredentialsEndpoint = "http://169.254.169.254/latest/meta-data/iam/security-credentials/"
@@ -18,20 +18,19 @@ const metadataCredentialsEndpoint = "http://169.254.169.254/latest/meta-data/iam
 // Example how to configure the EC2RoleProvider with custom http Client, Endpoint
 // or ExpiryWindow
 //
-//     p := &credentials.EC2RoleProvider{
-//         // Pass in a custom timeout to be used when requesting
-//         // IAM EC2 Role credentials.
-//         Client: &http.Client{
-//             Timeout: 10 * time.Second,
-//         },
-//         // Use default EC2 Role metadata endpoint, Alternate endpoints can be
-//         // specified setting Endpoint to something else.
-//         Endpoint: "",
-//         // Do not use early expiry of credentials. If a non zero value is
-//         // specified the credentials will be expired early
-//         ExpiryWindow: 0,
-//     }
-//
+//	p := &credentials.EC2RoleProvider{
+//	    // Pass in a custom timeout to be used when requesting
+//	    // IAM EC2 Role credentials.
+//	    Client: &http.Client{
+//	        Timeout: 10 * time.Second,
+//	    },
+//	    // Use default EC2 Role metadata endpoint, Alternate endpoints can be
+//	    // specified setting Endpoint to something else.
+//	    Endpoint: "",
+//	    // Do not use early expiry of credentials. If a non zero value is
+//	    // specified the credentials will be expired early
+//	    ExpiryWindow: 0,
+//	}
 type EC2RoleProvider struct {
 	// Endpoint must be fully quantified URL
 	Endpoint string

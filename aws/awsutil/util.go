@@ -6,7 +6,7 @@ import (
 	"encoding/base64"
 	"encoding/xml"
 	"fmt"
-	"github.com/ks3sdklib/aws-sdk-go/internal/protocol/xml/xmlutil"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/protocol/xml/xmlutil"
 	"go/format"
 	"io"
 	"os"
@@ -111,7 +111,7 @@ func fullName(t reflect.Type) string {
 	return t.Name()
 }
 
-//获取指定目录及所有子目录下的所有文件，可以匹配后缀过滤。
+// 获取指定目录及所有子目录下的所有文件，可以匹配后缀过滤。
 func WalkDir(dirPth, suffix string) (files []string, err error) {
 	files = make([]string, 0, 30)
 	suffix = strings.ToUpper(suffix) //忽略后缀匹配的大小写

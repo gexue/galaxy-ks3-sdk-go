@@ -13,10 +13,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ks3sdklib/aws-sdk-go/aws/credentials"
-	"github.com/ks3sdklib/aws-sdk-go/internal/protocol/rest"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws/credentials"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/protocol/rest"
 
-	"github.com/ks3sdklib/aws-sdk-go/aws"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws"
 )
 
 const (

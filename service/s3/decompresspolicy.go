@@ -1,6 +1,6 @@
 package s3
 
-import "github.com/ks3sdklib/aws-sdk-go/aws"
+import "github.com/gexue/galaxy-ks3-sdk-go/aws"
 
 // PutBucketDecompressPolicyRequest generates a request for the PutBucketDecompressPolicy operation.
 func (c *S3) PutBucketDecompressPolicyRequest(input *PutBucketDecompressPolicyInput) (req *aws.Request, output *PutBucketDecompressPolicyOutput) {

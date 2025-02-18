@@ -2,7 +2,7 @@ package aws
 
 import (
 	"context"
-	"github.com/ks3sdklib/aws-sdk-go/internal/apierr"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/apierr"
 )
 
 type Context = context.Context

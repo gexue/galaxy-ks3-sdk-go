@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ks3sdklib/aws-sdk-go/aws/credentials"
-	"github.com/ks3sdklib/aws-sdk-go/internal/apierr"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws/credentials"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/apierr"
 	"github.com/stretchr/testify/assert"
 )
 
