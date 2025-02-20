@@ -2,8 +2,8 @@
 package cloudfront
 
 import (
-	"github.com/ks3sdklib/aws-sdk-go/internal/features/shared"
-	"github.com/ks3sdklib/aws-sdk-go/service/cloudfront"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/features/shared"
+	"github.com/gexue/galaxy-ks3-sdk-go/service/cloudfront"
 	. "github.com/lsegal/gucumber"
 )
 

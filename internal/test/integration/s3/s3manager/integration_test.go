@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ks3sdklib/aws-sdk-go/aws"
-	"github.com/ks3sdklib/aws-sdk-go/internal/test/integration"
-	"github.com/ks3sdklib/aws-sdk-go/service/s3"
-	"github.com/ks3sdklib/aws-sdk-go/service/s3/s3manager"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/test/integration"
+	"github.com/gexue/galaxy-ks3-sdk-go/service/s3"
+	"github.com/gexue/galaxy-ks3-sdk-go/service/s3/s3manager"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,7 +5,7 @@ package s3
 
 import (
 	mapset "github.com/deckarep/golang-set"
-	"github.com/ks3sdklib/aws-sdk-go/aws"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws"
 	"io"
 	"net/url"
 	"sync"

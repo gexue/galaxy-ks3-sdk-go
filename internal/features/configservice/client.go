@@ -2,8 +2,8 @@
 package configservice
 
 import (
-	"github.com/ks3sdklib/aws-sdk-go/internal/features/shared"
-	"github.com/ks3sdklib/aws-sdk-go/service/configservice"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/features/shared"
+	"github.com/gexue/galaxy-ks3-sdk-go/service/configservice"
 	. "github.com/lsegal/gucumber"
 )
 

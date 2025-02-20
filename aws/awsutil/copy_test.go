@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/ks3sdklib/aws-sdk-go/aws/awsutil"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws/awsutil"
 	"github.com/stretchr/testify/assert"
 )
 

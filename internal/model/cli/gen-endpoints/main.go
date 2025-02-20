@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/ks3sdklib/aws-sdk-go/internal/model"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/model"
 )
 
 // Generates the endpoints from json description

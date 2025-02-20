@@ -4,9 +4,9 @@ import (
 	"crypto/md5"
 	"encoding/base64"
 
-	"github.com/ks3sdklib/aws-sdk-go/aws"
-	"github.com/ks3sdklib/aws-sdk-go/aws/awsutil"
-	"github.com/ks3sdklib/aws-sdk-go/internal/apierr"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws/awsutil"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/apierr"
 )
 
 var errSSERequiresSSL = apierr.New("ConfigError", "cannot send SSE keys over HTTP.", nil)

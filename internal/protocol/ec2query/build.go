@@ -6,9 +6,9 @@ package ec2query
 import (
 	"net/url"
 
-	"github.com/ks3sdklib/aws-sdk-go/aws"
-	"github.com/ks3sdklib/aws-sdk-go/internal/apierr"
-	"github.com/ks3sdklib/aws-sdk-go/internal/protocol/query/queryutil"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/apierr"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/protocol/query/queryutil"
 )
 
 // Build builds a request for the EC2 protocol.

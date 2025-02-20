@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/ks3sdklib/aws-sdk-go/aws"
-	"github.com/ks3sdklib/aws-sdk-go/aws/awserr"
-	"github.com/ks3sdklib/aws-sdk-go/internal/test/unit"
-	"github.com/ks3sdklib/aws-sdk-go/service/s3"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws"
+	"github.com/gexue/galaxy-ks3-sdk-go/aws/awserr"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/test/unit"
+	"github.com/gexue/galaxy-ks3-sdk-go/service/s3"
 	"github.com/stretchr/testify/assert"
 )
 

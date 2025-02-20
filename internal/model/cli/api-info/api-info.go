@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/ks3sdklib/aws-sdk-go/internal/model/api"
+	"github.com/gexue/galaxy-ks3-sdk-go/internal/model/api"
 )
 
 func main() {
